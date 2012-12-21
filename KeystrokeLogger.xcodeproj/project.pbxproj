@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEE56D1A1683E6D800D734F0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE56D191683E6D800D734F0 /* Cocoa.framework */; };
+		AEE56D241683E6D800D734F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEE56D221683E6D800D734F0 /* InfoPlist.strings */; };
+		AEE56D261683E6D800D734F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE56D251683E6D800D734F0 /* main.m */; };
+		AEE56D2A1683E6D800D734F0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AEE56D281683E6D800D734F0 /* Credits.rtf */; };
+		AEE56D2D1683E6D800D734F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE56D2C1683E6D800D734F0 /* AppDelegate.m */; };
+		AEE56D301683E6D800D734F0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEE56D2E1683E6D800D734F0 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AEE56D151683E6D800D734F0 /* KeystrokeLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeystrokeLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEE56D191683E6D800D734F0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AEE56D1C1683E6D800D734F0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AEE56D1D1683E6D800D734F0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AEE56D1E1683E6D800D734F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AEE56D211683E6D800D734F0 /* KeystrokeLogger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KeystrokeLogger-Info.plist"; sourceTree = "<group>"; };
+		AEE56D231683E6D800D734F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AEE56D251683E6D800D734F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEE56D271683E6D800D734F0 /* KeystrokeLogger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KeystrokeLogger-Prefix.pch"; sourceTree = "<group>"; };
+		AEE56D291683E6D800D734F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		AEE56D2B1683E6D800D734F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEE56D2C1683E6D800D734F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEE56D2F1683E6D800D734F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEE56D121683E6D800D734F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE56D1A1683E6D800D734F0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEE56D0A1683E6D800D734F0 = {
+			isa = PBXGroup;
+			children = (
+				AEE56D1F1683E6D800D734F0 /* KeystrokeLogger */,
+				AEE56D181683E6D800D734F0 /* Frameworks */,
+				AEE56D161683E6D800D734F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEE56D161683E6D800D734F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEE56D151683E6D800D734F0 /* KeystrokeLogger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEE56D181683E6D800D734F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEE56D191683E6D800D734F0 /* Cocoa.framework */,
+				AEE56D1B1683E6D800D734F0 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEE56D1B1683E6D800D734F0 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEE56D1C1683E6D800D734F0 /* AppKit.framework */,
+				AEE56D1D1683E6D800D734F0 /* CoreData.framework */,
+				AEE56D1E1683E6D800D734F0 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AEE56D1F1683E6D800D734F0 /* KeystrokeLogger */ = {
+			isa = PBXGroup;
+			children = (
+				AEE56D2B1683E6D800D734F0 /* AppDelegate.h */,
+				AEE56D2C1683E6D800D734F0 /* AppDelegate.m */,
+				AEE56D2E1683E6D800D734F0 /* MainMenu.xib */,
+				AEE56D201683E6D800D734F0 /* Supporting Files */,
+			);
+			path = KeystrokeLogger;
+			sourceTree = "<group>";
+		};
+		AEE56D201683E6D800D734F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEE56D211683E6D800D734F0 /* KeystrokeLogger-Info.plist */,
+				AEE56D221683E6D800D734F0 /* InfoPlist.strings */,
+				AEE56D251683E6D800D734F0 /* main.m */,
+				AEE56D271683E6D800D734F0 /* KeystrokeLogger-Prefix.pch */,
+				AEE56D281683E6D800D734F0 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEE56D141683E6D800D734F0 /* KeystrokeLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEE56D331683E6D800D734F0 /* Build configuration list for PBXNativeTarget "KeystrokeLogger" */;
+			buildPhases = (
+				AEE56D111683E6D800D734F0 /* Sources */,
+				AEE56D121683E6D800D734F0 /* Frameworks */,
+				AEE56D131683E6D800D734F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeystrokeLogger;
+			productName = KeystrokeLogger;
+			productReference = AEE56D151683E6D800D734F0 /* KeystrokeLogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEE56D0C1683E6D800D734F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Quantified Me";
+			};
+			buildConfigurationList = AEE56D0F1683E6D800D734F0 /* Build configuration list for PBXProject "KeystrokeLogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AEE56D0A1683E6D800D734F0;
+			productRefGroup = AEE56D161683E6D800D734F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEE56D141683E6D800D734F0 /* KeystrokeLogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEE56D131683E6D800D734F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE56D241683E6D800D734F0 /* InfoPlist.strings in Resources */,
+				AEE56D2A1683E6D800D734F0 /* Credits.rtf in Resources */,
+				AEE56D301683E6D800D734F0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEE56D111683E6D800D734F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE56D261683E6D800D734F0 /* main.m in Sources */,
+				AEE56D2D1683E6D800D734F0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AEE56D221683E6D800D734F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEE56D231683E6D800D734F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AEE56D281683E6D800D734F0 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEE56D291683E6D800D734F0 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		AEE56D2E1683E6D800D734F0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEE56D2F1683E6D800D734F0 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEE56D311683E6D800D734F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AEE56D321683E6D800D734F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AEE56D341683E6D800D734F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeystrokeLogger/KeystrokeLogger-Prefix.pch";
+				INFOPLIST_FILE = "KeystrokeLogger/KeystrokeLogger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AEE56D351683E6D800D734F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeystrokeLogger/KeystrokeLogger-Prefix.pch";
+				INFOPLIST_FILE = "KeystrokeLogger/KeystrokeLogger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEE56D0F1683E6D800D734F0 /* Build configuration list for PBXProject "KeystrokeLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEE56D311683E6D800D734F0 /* Debug */,
+				AEE56D321683E6D800D734F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEE56D331683E6D800D734F0 /* Build configuration list for PBXNativeTarget "KeystrokeLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEE56D341683E6D800D734F0 /* Debug */,
+				AEE56D351683E6D800D734F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEE56D0C1683E6D800D734F0 /* Project object */;
+}
